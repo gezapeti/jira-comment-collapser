@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Jira comment collapser",
+  "version": "0.2",
+  "content_scripts": [
+  {
+    "matches": [
+       "*://issues.apache.org/*"
+    ],
+    "js": ["jquery.js", "content.js"]
+  }
+  ]
+}
