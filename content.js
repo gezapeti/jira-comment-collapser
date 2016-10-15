@@ -1,5 +1,5 @@
 // content.js
-var spammers = ["hadoopqa", "hudson"];
+var spammers = ["hadoopqa", "hudson", "githubbot"];
 for (var spammer of spammers) {
   var comments = $(".activity-comment").has("a[rel='" + spammer + "']");
   collapse(comments);
