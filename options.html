@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Jira comment collapser options</title>
+  <style>
+   body: { padding: 10px; }
+  </style>
+  <script type="text/javascript" src="jquery.js"></script>
+
+  </head>
+
+  <body>
+ 
+     Collapse commenct from user IDs
+     <table>
+     <tr>
+     <td colspan=2>
+     <input type="text" id="newUser" style="width: 500px">
+     </td>
+     </tr>
+     <tr>
+     <td colspan=2>
+     <select id="filteredUsers" size="20" multiple style="background: white; width: 500px"></select>
+</td>
+</tr>
+<tr>
+<td>
+     <button id="add">Add UserID</button>
+     </td>
+     <td>
+     <button id="remove">Remove UserID</button>
+     </td>
+     </tr>
+     </table>
+     <label>Keep the last comment expanded:</label> <input type="checkbox" id="keepLast">
+     <div id="status"></div>
+     <button id="save">Save</button>
+
+       <script src="options.js"></script>
+   </body>
+</html>
