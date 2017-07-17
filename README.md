@@ -5,7 +5,7 @@ on Apache JIRA
 
 Custom users can be added in the extension's Options.
 
-The extension is available at [Chrome web store|https://chrome.google.com/webstore/detail/jira-comment-collapser/nmhgbkaolbniokhlpofdoahdammicndp]
+The extension is available at [Chrome web store](https://chrome.google.com/webstore/detail/jira-comment-collapser/nmhgbkaolbniokhlpofdoahdammicndp "Chrome web store")
 
 
 If you want To install a custom version of the extension, first clone this 
